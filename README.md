@@ -104,18 +104,6 @@ end_date = spark.conf.get("end_date")
 
 ## Dashboards
 
-### KPI Snapshot
-
-| Metric | Value | Visual |
-|---|---:|---|
-| Total Revenue | $94M | ![Total Revenue](Dashboards/Total%20Revenue.png) |
-| Total Trips | 366.14K | ![Total Trips](Dashboards/Total%20Trips.png) |
-| Avg Distance (km) | 19.21 | ![Avg Distance](Dashboards/Avg%20Distance%20(km).png) |
-| Avg Passenger Rating | 7.68 | ![Avg Passenger Rating](Dashboards/Avg%20Passenger%20Rating.png) |
-| Holiday Trips | 4.93K | ![Holiday Trips](Dashboards/Holiday%20Trips.png) |
-| Weekday Trips | 284.88K | ![Weekday Trips](Dashboards/Weekday%20Trips.png) |
-| Weekend Trips | 81.26K | ![Weekend Trips](Dashboards/Weekend%20Trips.png) |
-
 ### Trend Analysis
 
 ![Revenue Over Time](Dashboards/Revenue%20Over%20Time.png)
