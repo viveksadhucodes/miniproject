@@ -104,17 +104,6 @@ end_date = spark.conf.get("end_date")
 - Unity Catalog-ready design for secure governance and discoverability.
 - Layered model supports clear lineage from raw ingestion to business outputs.
 
-## Visuals
-
-### Pipeline Dashboard
-
-![Dashboard Placeholder](https://dbc-697df0c5-c24b.cloud.databricks.com/dashboardsv3/01f13d61dbc51b62bb711958178cc1c2/published?o=7474644343007642&utm_campaign=copy_widget_link&fullscreenWidget=ec7f7164~trips_by_city)
-
-### Lineage View
-
-![Lineage Placeholder](docs/images/lineage-placeholder.png)
-
-> Replace placeholders with your actual screenshots after pipeline deployment.
 
 ## Future Enhancements
 
