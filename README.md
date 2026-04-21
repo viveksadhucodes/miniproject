@@ -115,6 +115,3 @@ end_date = spark.conf.get("end_date")
 
 Contributions are welcome. If you want to improve transformations, add quality rules, or optimize Gold models, open an issue or submit a pull request.
 
-## License
-
-Specify your license here (e.g., MIT).
