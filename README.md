@@ -102,17 +102,37 @@ end_date = spark.conf.get("end_date")
 - **Silver trips:** cleaned transactional trip data ready for downstream joins.
 - **Gold fact trips:** combined trip, city, and calendar view for analytics.
 
-## Visuals
+## Dashboards
 
-### Dashboard Screenshot
+### KPI Snapshot
 
-![Dashboard Placeholder](docs/images/dashboard-placeholder.png)
+| Metric | Value | Visual |
+|---|---:|---|
+| Total Revenue | $94M | ![Total Revenue](Dashboards/Total%20Revenue.png) |
+| Total Trips | 366.14K | ![Total Trips](Dashboards/Total%20Trips.png) |
+| Avg Distance (km) | 19.21 | ![Avg Distance](Dashboards/Avg%20Distance%20(km).png) |
+| Avg Passenger Rating | 7.68 | ![Avg Passenger Rating](Dashboards/Avg%20Passenger%20Rating.png) |
+| Holiday Trips | 4.93K | ![Holiday Trips](Dashboards/Holiday%20Trips.png) |
+| Weekday Trips | 284.88K | ![Weekday Trips](Dashboards/Weekday%20Trips.png) |
+| Weekend Trips | 81.26K | ![Weekend Trips](Dashboards/Weekend%20Trips.png) |
 
-### Pipeline Lineage
+### Trend Analysis
 
-![Lineage Placeholder](docs/images/lineage-placeholder.png)
+![Revenue Over Time](Dashboards/Revenue%20Over%20Time.png)
 
-Replace these placeholders with your Databricks dashboard and lineage screenshots after deployment.
+![Trips Over Time](Dashboards/Trips%20Over%20Time.png)
+
+### Segment Analysis
+
+![Revenue by City](Dashboards/Revenue%20by%20City.png)
+
+![Trips by City](Dashboards/Trips%20by%20City.png)
+
+![Trips by Day of Week](Dashboards/Trips%20by%20Day%20of%20Week.png)
+
+![Trips by Passenger Category](Dashboards/Trips%20by%20Passenger%20Category.png)
+
+These visuals are sourced from the [Dashboards](Dashboards) folder and represent the current Gold-layer analytics outputs.
 
 ## Deployment Notes
 
