@@ -108,7 +108,7 @@ end_date = spark.conf.get("end_date")
 
 ### Pipeline Dashboard
 
-![Dashboard Placeholder](docs/images/dashboard-placeholder.png)
+![Dashboard Placeholder](https://dbc-697df0c5-c24b.cloud.databricks.com/dashboardsv3/01f13d61dbc51b62bb711958178cc1c2/published?o=7474644343007642&utm_campaign=copy_widget_link&fullscreenWidget=ec7f7164~trips_by_city)
 
 ### Lineage View
 
