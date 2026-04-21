@@ -33,3 +33,39 @@ miniproject/
 ## Purpose
 
 The project ingests transportation and trip data, standardizes it through medallion architecture, enriches it with a calendar dimension, and publishes analytics-ready gold tables for downstream reporting.
+
+## How to Configure
+
+Set the pipeline window in the DLT JSON settings before running the pipeline.
+
+```json
+{
+  "configuration": {
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31"
+  }
+}
+```
+
+In the transformation code, the calendar layer reads these values directly from Spark:
+
+```python
+start_date = spark.conf.get("start_date")
+end_date = spark.conf.get("end_date")
+```
+
+## Data Quality and Governance
+
+- Built with DLT expectations for predictable, testable pipelines.
+- Unity Catalog-ready design for secure governance and discoverability.
+- Layered model supports clear lineage from raw ingestion to business outputs.
+
+## Future Enhancements
+
+- Add CI/CD for automated deployment and validation.
+- Introduce data drift monitoring for trip KPIs.
+- Expand Gold models for route-level and demand forecasting analytics.
+
+## Contributing
+
+Contributions are welcome. If you want to improve transformations, add quality rules, or optimize Gold models, open an issue or submit a pull request.
