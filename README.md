@@ -132,6 +132,4 @@ These visuals are sourced from the [Dashboards](Dashboards) folder and represent
 
 Pull requests that improve transformations, documentation, or analytics coverage are welcome.
 
-## License
 
-Add your preferred license here.
